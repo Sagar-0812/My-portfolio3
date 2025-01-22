@@ -6,7 +6,7 @@
 .headSection {
     display: flex;
     gap: 300px;
-    background: #ffffff;
+    background: #fafafaff;
     justify-content: center;
 }
 li {
@@ -29,13 +29,13 @@ a:hover {
     transform: scale(1.1);
 }
 .container {
-    background: black;
+    background: #fafafaff;
     height: 250vh;
     width: 100%;
-    margin: 10px 0px;
+    margin: 0px 0px;
 }
 .text {
-    color: white;
+    color: black;
     font-size: 2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
