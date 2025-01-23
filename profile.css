@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hrline{
+    margin: 10px 50px;
+}
+img{
+    height: 60vh;
+    margin: 0px 150px;
+}
+.profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fafafaff;
+    height: 100vh;
+}
+.text{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    font-size: 2em;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: hsla(200, 84%, 45%, 0.727);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    display: flex;
+    color: hsla(221, 86%, 45%, 0.827);
+    justify-content: center;
+    font-size: 3em;
+    padding: 20px 0px;
+    background-color: #fafafaff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.services{
+    background-color: #fafafaff;
+    height: 50vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 50;
+    /* flex-direction: column; */
+}
+.serv{
+    margin: 10px 0px;
+    font-size: 2.5em;
+    color: hsla(221, 86%, 45%, 0.827);
+}
+.work{
+    display: flex;
+    align-items: center;
+    gap: 20em;
+    justify-content: space-evenly;
+}
+.hs{
+    font-size: 2.5em;
+}
