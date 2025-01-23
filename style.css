@@ -30,7 +30,7 @@ a:hover {
 }
 .container {
     background: #fafafaff;
-    height: 250vh;
+    height: 280vh;
     width: 100%;
     margin: 0px 0px;
 }
@@ -118,4 +118,50 @@ img {
     color: coral;
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
+}
+.Collabrate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.downline{
+    margin: 0px 190px;
+    width: 1130px;
+}
+.textbox{
+    margin: 30px 0px;
+}
+.arrow{
+    margin: 10px 100px;
+}
+.heading{
+    font-size: 2.5em;
+    font-weight: 100;
+    margin: 0px 100px;
+}
+.connect{
+    padding: 10px 5px;
+}
+.credentials{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.submit{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 220px;
+    background-color: red;
+    color: white;
+}
+.submit:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
